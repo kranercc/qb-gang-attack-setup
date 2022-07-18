@@ -15,7 +15,21 @@
 },
 ```
 
-2. index.html
+2. main.lua
+   * Look for `NUI Callbacks` and add the following:
+
+```lua
+    RegisterNUICallback("HireHitman", function() 
+        TriggerEvent("krane-hitman-call")
+    end)
+```
+
+You should have something like this:
+![](https://i.imgur.com/9eK16tV.png)
+
+
+
+3. index.html
     * Press `ctrl+f` and look for `<div class="whatsapp-app">`
     * You should see something like this: 
     * ![](https://i.imgur.com/DApasQQ.png)
@@ -102,5 +116,3 @@ start GangAttack
 or if you want to put it inside your [qb] folder, then you don't need to do anything else.
 
 Here is a preview for the system: [link will come after the video is public]
-
-For support, make sure you join the discord group here: https://discord.gg/5QSFZbUBFh
