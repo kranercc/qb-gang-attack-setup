@@ -102,3 +102,5 @@ start GangAttack
 or if you want to put it inside your [qb] folder, then you don't need to do anything else.
 
 Here is a preview for the system: [link will come after the video is public]
+
+For support, make sure you join the discord group here: https://discord.gg/5QSFZbUBFh
